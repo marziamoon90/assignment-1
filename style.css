@@ -21,6 +21,7 @@
     text-align: left;
     margin-left: 5%;
 }
+
 .the-diet-wr ol{
     font-size: 120%;
     color: gray;
@@ -61,8 +62,7 @@
 .food-recommended{
     width: 20%;
     
-    box-shadow:2px 2px 20px black;
-    border-radius: 17px;
+    
     margin-top: 10%;
     cursor: pointer;
     margin:10px 0px 0px 50px;
@@ -85,8 +85,10 @@
     margin-top: 10px;
     margin-left: 5%;
     color: rgb(95, 91, 91);
-    
-    
+}
+.box-shadow{
+    box-shadow:2px 2px 20px black;
+    border-radius: 17px;
 }
 .food-recommended:hover{
     background-color: rgb(39, 37, 37);
@@ -101,4 +103,35 @@
 .flex{
     display: flex;
     margin-top: 5%;
+}
+
+/*------ Follower ------*/
+
+.follower{
+    width: 90%;
+    margin: 5%;
+    padding: 2% 0;
+}
+
+.follower-css{
+    width: 30%;
+    padding: 3% 10%;
+}
+.follower-css h1{
+    font-size: 50px;
+}
+.start-diet{
+    text-align: center;
+    background-color: black;
+    padding: 3% 0 7% 0;
+}
+.start-diet h1{
+    color: gray;
+    font-size:50px;
+    text-transform: uppercase;
+}
+.start-diet p{
+    color: white;
+    padding:1%;
+    font-size: 25px;
 }
